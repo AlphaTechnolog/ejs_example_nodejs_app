@@ -1,0 +1,22 @@
+{
+  "name": "ejsApplication",
+  "version": "1.0.0",
+  "description": "This is an integration of ejs in express with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/",
+    "dev": "nodemon src/"
+  },
+  "repository": "https://github.com/AlphaTechnolog/ejs_example_nodejs_app.git",
+  "author": "Gabriel Guerra <gfranklings@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
